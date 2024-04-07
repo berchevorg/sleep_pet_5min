@@ -5,6 +5,6 @@ resource "random_pet" "name" {
 
 resource "null_resource" "sleep" {
   provisioner "local-exec" {
-    command = "sleep 300"
+    command = "sleep 30"
   }
 }
