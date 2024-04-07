@@ -5,7 +5,7 @@ resource "random_pet" "name" {
 
 resource "null_resource" "sleep" {
   provisioner "local-exec" {
-    command = "sleep 30"
+    command = "sleep 40"
   }
   triggers = {
     run_every_time = uuid()
